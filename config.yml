@@ -1,3 +1,4 @@
-- name: Build Hugo
-  run: hugo --minify
-  working-directory: ./workflow
+baseURL: "https://example.com/"
+languageCode: "en-us"
+title: "My Hugo Site"
+theme: "your-theme"
