@@ -1,1 +1,3 @@
-
+- name: Build Hugo
+  run: hugo --minify
+  working-directory: ./workflow
